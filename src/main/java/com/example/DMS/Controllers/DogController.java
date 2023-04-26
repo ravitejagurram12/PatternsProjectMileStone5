@@ -73,7 +73,7 @@ public class DogController {
 	
 	@RequestMapping("viewModifyDelete")
 	public ModelAndView ViewDogs() {
-	mv.setViewName("ViewDogs");
+	mv.setViewName("viewDogs");
 	Iterable<Dog>dogList=dogRepo.findAll();
 	mv.addObject("dogs",dogList);
 	return mv;
