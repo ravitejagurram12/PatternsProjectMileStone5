@@ -15,7 +15,7 @@ public class Dog {
 	private String breed;
 	
 	@ManyToOne
-	private  Trainer trainer;
+	private Trainer trainer;
 
 	public int getId() {
 		return id;
